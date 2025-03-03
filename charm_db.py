@@ -9,11 +9,11 @@ def cosine_similarity(v1, v2):
 r.flushall()
 
 charms = {
-    "Protego": np.array([0.8, 0.3, 0.6, 0.9], dtype=np.float32),  # Large, blue-ish, complex pattern, shield shape
-    "Lumos": np.array([0.2, 0.9, 0.1, 0.3], dtype=np.float32),    # Small, bright white, simple pattern, orb shape
-    "Expecto_Patronum": np.array([0.9, 0.7, 0.8, 0.7], dtype=np.float32),  # Very large, silvery, intricate pattern, animal shape
-    "Wingardium_Leviosa": np.array([0.5, 0.4, 0.3, 0.4], dtype=np.float32),  # Medium, subtle glow, simple swish, curved shape
-    "Expelliarmus": np.array([0.6, 0.8, 0.5, 0.5], dtype=np.float32)   # Medium-large, bright red, moderate pattern, beam shape
+    "CHARM1": np.array([0.8, 0.3, 0.6, 0.9], dtype=np.float32),  # Large, blue-ish, complex pattern, shield shape
+    "CHARM2": np.array([0.2, 0.9, 0.1, 0.3], dtype=np.float32),    # Small, bright white, simple pattern, orb shape
+    "CHARM3": np.array([0.9, 0.7, 0.8, 0.7], dtype=np.float32),  # Very large, silvery, intricate pattern, animal shape
+    "CHARM4": np.array([0.5, 0.4, 0.3, 0.4], dtype=np.float32),  # Medium, subtle glow, simple swish, curved shape
+    "CHARM5": np.array([0.6, 0.8, 0.5, 0.5], dtype=np.float32)   # Medium-large, bright red, moderate pattern, beam shape
 }
 
 for charm_name, vector in charms.items():
